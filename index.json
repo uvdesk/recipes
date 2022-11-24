@@ -19,6 +19,10 @@
         "uvdesk/mailbox-component": [
             "1.2", 
             "1.2.x-dev"
+        ], 
+        "uvdesk/support-center-bundle": [
+            "1.2", 
+            "1.2.x-dev"
         ] 
     },
     "branch": "master",
