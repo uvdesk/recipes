@@ -1,0 +1,15 @@
+{
+    "recipes": {
+        "uvdesk/core-framework": [
+            "1.2", 
+            "1.2.x-dev"
+        ]
+    },
+    "branch": "master",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/uvdesk/recipes",
+        "origin_template": "{package}:{version}@github.com/uvdesk/recipes:master",
+        "recipe_template": "https://api.github.com/repos/uvdesk/recipes/contents/{package_dotted}.{version}.json"
+    }
+}
