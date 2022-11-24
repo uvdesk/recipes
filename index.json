@@ -4,6 +4,10 @@
             "1.2", 
             "1.2.x-dev"
         ], 
+        "uvdesk/automation-bundle": [
+            "1.2", 
+            "1.2.x-dev"
+        ], 
         "uvdesk/core-framework": [
             "1.2", 
             "1.2.x-dev"
