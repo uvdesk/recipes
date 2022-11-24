@@ -1,0 +1,28 @@
+{
+    "manifests": {
+        "uvdesk/automation-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Webkul\\UVDesk\\AutomationBundle\\UVDeskAutomationBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%" 
+                } 
+            },
+            "files": {
+                "config/packages/twig.yaml": {
+                    "contents": [
+                        "twig:", 
+                        "    globals:", 
+                        "        uvdesk_automations: '@uvdesk.automations'", 
+                        "" 
+                    ],
+                    "executable": false
+                } 
+            },
+            "ref": "8a198d15b0141073792a2889b9a1f41e2fbf47ba"
+        }
+    }
+}
