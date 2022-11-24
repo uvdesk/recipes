@@ -11,7 +11,11 @@
         "uvdesk/core-framework": [
             "1.2", 
             "1.2.x-dev"
-        ]
+        ], 
+        "uvdesk/extension-framework": [
+            "1.2", 
+            "1.2.x-dev"
+        ] 
     },
     "branch": "master",
     "is_contrib": true,
