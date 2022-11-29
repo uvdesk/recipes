@@ -9,7 +9,7 @@
                 },
                 "copy-from-recipe": {
                     "config/": "%CONFIG_DIR%", 
-                    "templates/": "migrations/"
+                    "templates/": "templates/"
                 }, 
                 "post-install-output": [
                     "<fg=magenta;options=bold>-------------------------------</>", 
@@ -211,6 +211,7 @@
                         "        <title>{% block title %}{% endblock %}</title>", 
                         "        {% block metadata %}{% endblock %}", 
                         "    </head>", 
+                        "", 
                         "    <body>", 
                         "        {{ message|raw }}", 
                         "    </body>", 
@@ -219,7 +220,7 @@
                     "executable": false
                 }
             },
-            "ref": "30ddc9cfcbece31a5a9dbbe0b5d6d16173d540d8"
+            "ref": "ca31b954181cf779432a4eb17141d0178241514e"
         }
     }
 }
