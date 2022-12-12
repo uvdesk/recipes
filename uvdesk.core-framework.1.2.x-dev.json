@@ -76,8 +76,6 @@
                         "    upload_manager:", 
                         "        id: Webkul\\UVDesk\\CoreFrameworkBundle\\FileSystem\\UploadManagers\\Localhost", 
                         "", 
-                        "    support_email: ~", 
-                        "", 
                         "    # Default resources", 
                         "    default:", 
                         "        ticket:", 
@@ -220,7 +218,7 @@
                     "executable": false
                 }
             },
-            "ref": "ca31b954181cf779432a4eb17141d0178241514e"
+            "ref": "7823836177e9e4d7907f6631bbfc33d347334fdb"
         }
     }
 }
