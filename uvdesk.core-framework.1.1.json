@@ -76,6 +76,8 @@
                         "    upload_manager:", 
                         "        id: Webkul\\UVDesk\\CoreFrameworkBundle\\FileSystem\\UploadManagers\\Localhost", 
                         "", 
+                        "    support_email: ~", 
+                        "", 
                         "    # Default resources", 
                         "    default:", 
                         "        ticket:", 
@@ -152,7 +154,6 @@
                         "        url: '%env(DATABASE_URL)%'", 
                         "        options:", 
                         "            1002: 'SET sql_mode=(SELECT REPLACE(@@sql_mode, \"ONLY_FULL_GROUP_BY\", \"\"))'", 
-                        "", 
                         "    orm:", 
                         "        auto_generate_proxy_classes: true", 
                         "        naming_strategy: doctrine.orm.naming_strategy.underscore", 
@@ -174,6 +175,15 @@
                         "    mailer:", 
                         "        transports:", 
                         "            main: '%env(MAILER_DSN)%'", 
+                        "" 
+                    ],
+                    "executable": false
+                }, 
+                "config/packages/swiftmailer.yaml": {
+                    "contents": [
+                        "swiftmailer:", 
+                        "    # url: '%env(MAILER_URL)%'", 
+                        "    # spool: { type: 'memory' }", 
                         "" 
                     ],
                     "executable": false
@@ -218,7 +228,7 @@
                     "executable": false
                 }
             },
-            "ref": "ebe9acd7a4d8513dd4c75c06c588cf0cd68476d0"
+            "ref": "905cae225e30bd8c33499247f870846407e3bb92"
         }
     }
 }

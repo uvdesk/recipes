@@ -16,14 +16,14 @@
                     "contents": [
                         "security:", 
                         "    providers:", 
-                        "        uv_api_credentials:", 
+                        "        api_user_provider:", 
                         "            id: Webkul\\UVDesk\\ApiBundle\\Providers\\ApiCredentials", 
                         "    ", 
                         "    firewalls:", 
                         "        uvdesk_api:", 
-                        "            pattern: /api", 
+                        "            pattern: ^/api", 
                         "            anonymous: true", 
-                        "            provider: uv_api_credentials", 
+                        "            provider: api_user_provider", 
                         "", 
                         "            guard:", 
                         "                authenticators: ", 
@@ -33,7 +33,7 @@
                     "executable": false
                 } 
             },
-            "ref": "e7034d64fdb6ef1a89114ebcd8324eccf8247fa8"
+            "ref": "4e7fa7b4359b7ec34b76d53a3ab170b27b9863e9"
         }
     }
 }
