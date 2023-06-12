@@ -1,0 +1,36 @@
+{
+    "manifests": {
+        "uvdesk/extension-framework": {
+            "manifest": {
+                "bundles": {
+                    "Webkul\\UVDesk\\ExtensionFrameworkBundle\\UVDeskExtensionFrameworkBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%" 
+                } 
+            },
+            "files": {
+                "config/packages/uvdesk_extensions.yaml": {
+                    "contents": [
+                        "uvdesk_extensions:", 
+                        "    dir: '%kernel.project_dir%/apps'", 
+                        "" 
+                    ],
+                    "executable": false
+                }, 
+                "config/routes.yaml": {
+                    "contents": [
+                        "uvdesk_extensions:", 
+                        "    resource: .", 
+                        "    type: uvdesk_extensions", 
+                        "" 
+                    ],
+                    "executable": false
+                } 
+            },
+            "ref": "0f96332cc3499cea1c986cc35f01d07fa2f8a696"
+        }
+    }
+}
