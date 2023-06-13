@@ -206,6 +206,7 @@
                         "        email_service: '@email.service'", 
                         "        uvdesk_extensibles: '@uvdesk.extensibles'", 
                         "        uvdesk_core_file_system: '@uvdesk.core.file_system.service'", 
+                        "        uvdesk_core_version: '%uvdesk.core.version%'", 
                         "" 
                     ],
                     "executable": false
@@ -228,7 +229,7 @@
                     "executable": false
                 }
             },
-            "ref": "905cae225e30bd8c33499247f870846407e3bb92"
+            "ref": "3340fca0a374491ae55a994e58a51cb0163bf58b"
         }
     }
 }
